@@ -1,9 +1,10 @@
 # Quiet Runtime
 
-AI orchestration, interactive data visualization, and self-hosted systems.
+Multi-agent AI, visual analytics, and self-hosted platforms.
 
-I build tools that connect models, agents, bots, browsers, and local compute.
-My work spans the interface, the data pipeline, and the backend services that keep it running.
+I build tools that connect models, agents, bots, browsers, and local compute,
+and interfaces for exploring complex data. My work spans interactive frontends,
+data pipelines, APIs, and the infrastructure behind them.
 
 ### Areas of work
 
@@ -12,21 +13,27 @@ My work spans the interface, the data pipeline, and the backend services that ke
 - **Agent and bot bridges:** authenticated task dispatch between conversational
   bots and coding agents, with VPS and local execution, persistent jobs,
   progress tracking, and recovery.
-- **Interactive data visualization:** 3D relationship maps, live activity views,
-  system topology, and dashboards that connect visual exploration to real data
-  and source provenance.
-- **Backend and data engineering:** collection and ingestion pipelines,
-  durable queues, deduplication, incremental synchronization, HTTP APIs,
-  and streamed updates.
-- **VPS infrastructure:** Linux services, Docker deployments, reverse proxies,
-  authentication boundaries, monitoring, backups, and service recovery.
+- **Visual and geospatial analytics:** 3D relationship maps, layered world maps,
+  live activity and historical views, source-linked exploration, and
+  AI-assisted work with datasets.
+- **Defensive security platforms:** integrating open-source tools and
+  threat-intelligence feeds into dashboards for attack activity, indicators,
+  vulnerability information, and attack-technique references.
+- **Backend and data engineering:** ingestion pipelines, durable queues,
+  deduplication, historical stores, streamed updates, and query APIs with
+  scoped access, quotas, caching, and audit trails.
+- **Self-hosted platforms:** integrated service portals, authentication,
+  Linux and Docker deployments, reverse proxies, health and performance
+  monitoring, backups, and recovery controls.
 - **Browser and media tools:** extensions, audio capture and playback,
   recording, streaming, transcription, and creative desktop utilities.
 
 ### Interests
 
 - Agent coordination, model evaluation, and memory-aware workflows
-- Turning complex datasets into explorable visual interfaces
+- Geospatial analysis and turning complex datasets into explorable interfaces
+- Threat-intelligence visualization and practical defensive tooling
+- Interface design for dense operational data
 - Event-driven backends and reliable workflows across machines
 - Local GPU inference and hybrid local/cloud execution
 - Browser audio and creative media automation
@@ -35,13 +42,15 @@ My work spans the interface, the data pipeline, and the backend services that ke
 ### Technologies
 
 Python · JavaScript / TypeScript · Node.js · Electron  
-Three.js / WebGL · HTTP APIs · Server-Sent Events · SQLite  
+Three.js / WebGL · MapLibre · deck.gl · kepler.gl  
+FastAPI · HTTP APIs · Server-Sent Events · SQLite · DuckDB · GeoJSON  
 Linux · Docker · systemd · Nginx · Prometheus / Grafana  
 FFmpeg · Web Audio · Local GPU inference
 
 ### Approach
 
-Build for real use. Make the interface understandable.  
+Build for real use. Make complex interfaces understandable.  
+Extend and integrate open-source tools with clear attribution.  
 Preserve data and provenance. Make failures observable and recoverable.  
 Verify the complete workflow, from the backend to the user-facing result.
 
